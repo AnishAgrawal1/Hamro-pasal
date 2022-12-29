@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-// variables
 $clr-black: #000;
 $clr-white: #fff;
 $clr-regal-blue: #103755;
@@ -13,7 +12,6 @@ $clr-red: #CE4F4B;
 $fnt-base: 'Poppins', sans-serif;
 $transition: all 300ms linear;
 
-// global styles & resets
 *,
 *::after,
 *::before{
@@ -67,14 +65,12 @@ input, textarea, select{
     font-size: 1.6rem;
 }
 
-/* custom utility classes */
 .container{
     max-width: 1320px;
     margin: 0 auto;
     padding: 0 2rem;
 }
 
-/* flexbox and grid */
 .flex{
     display: flex;
     align-items: center;
@@ -88,11 +84,9 @@ input, textarea, select{
 
 .grid{ display: grid; }
   
-/* height and width */
 .h-100{height: 100%;}
 .w-100{width: 100%;}
 
-/* text align and transformation */
 .text{
   &-center{text-align: center;}
   &-start{text-align: left;}
@@ -121,7 +115,6 @@ input, textarea, select{
   &-dark{background-color: $clr-dark;}
 }
 
-/* font weights */
 .fw{
   &-1{font-weight: 100;}
   &-2{font-weight: 200;}
@@ -134,7 +127,6 @@ input, textarea, select{
   &-9{font-weight: 900;}
 }
 
-/* common font sizes */
 .fs{
   &-13{font-size: 13px;}
   &-14{font-size: 14px;}
@@ -152,11 +144,9 @@ input, textarea, select{
   &-26{font-size: 26px;}
 }
 
-/* letter spacing */
 .ls-1{letter-spacing: 1px;}
 .ls-2{letter-spacing: 2px;}
 
-/* margin and padding */
 .mx-auto{
     margin-right: auto;
     margin-left: auto;
@@ -180,7 +170,6 @@ input, textarea, select{
   }
 }
 
-// breadcrumb
 .breadcrumb{
   padding: 12px 0;
   color: $clr-light-blue;
@@ -189,7 +178,6 @@ input, textarea, select{
   }
 }
 
-// butons
 %btn-shared{
   padding: 8px 14px;
   display: inline-block;
